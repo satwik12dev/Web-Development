@@ -11,7 +11,6 @@ console.log(a);// this works because var is function scoped and we are trying to
 }
 // console.log(b);//this gives an error because let is block scoped and we are trying to access it outside the block.
 
-
 let x = 100;
 function fun(){
     console.log(x);
