@@ -8,4 +8,4 @@ function genSubArrays(arr) {
     return subArrays;
 }   
 let arr = [1, 2, 3];
-console.log(genSubArrays(arr)); 
+console.log(genSubArrays(arr)); // Output: [[1], [1, 2], [1, 2, 3], [2], [2, 3], [3]]
