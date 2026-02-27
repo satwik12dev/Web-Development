@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<style>
+input {
+  padding: 8px;
+  width: 260px;
+  margin-bottom: 4px;
+}
+.error {
+  color: red;
+  margin: 0;
+}
+.ok {
+  color: green;
+  margin: 0;
+}
+.field {
+  margin-bottom: 12px;
+}
+input {
+  padding: 8px;
+  width: 260px;
+  margin-bottom: 4px;
+}
+.error {
+  color: red;
+  margin: 0;
+}
+.ok {
+  color: green;
+  margin: 0;
+}
+.field {
+  margin-bottom: 12px;
+}
+</style>
+
+<body>
+<h2>Sign Up</h2>
+
+<form id="signupForm">
+
+<div class="field">
+  <label>Name:</label><br>
+  <input id="name" type="text" placeholder="Your name">
+  <p id="nameError" class="error"></p>
+</div>
+
+<div class="field">
+  <label>Email:</label><br>
+  <input id="email" type="text" placeholder="name@example.com">
+  <p id="emailError" class="error"></p>
+</div>
+
+<div class="field">
+  <label>Password:</label><br>
+  <input id="password" type="password" placeholder="Min 8 characters">
+  <p id="passwordError" class="error"></p>
+</div>ww
+
+<div class="field">
+  <label>Confirm Password:</label><br>
+  <input id="confirm" type="password" placeholder="Repeat password">
+  <p id="confirmError" class="error"></p>
+</div>
+
+<p><button type="submit">Create Account</button></p>
+
+</form>
+
+<p id="result"></p>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
