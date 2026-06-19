@@ -18,15 +18,6 @@ console.log(a);
 console.log(a.shift());
 console.log(a);
 
-console.log(a.unshift(0));
-console.log(a);
-
-console.log(a.copyWithin(0, 3, 5));
-
-console.log(a.flat());
-
-console.log(a.slice(1, 4));
-
 console.log(a.splice(2, 1, 10, 11));
 
 console.log(a.reverse());
