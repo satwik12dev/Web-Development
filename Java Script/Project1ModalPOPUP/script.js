@@ -14,15 +14,21 @@ openBtn.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
 
 /* Close when clicking outside the modal box */
-modal.addEventListener("click", function (event) {
-  if (event.target === modal) {
+// modal.addEventListener("click", function (event) {
+//   if (event.target === modal) {
+//     closeModal();
+//   }
+// });
+
+/* Close when clicking the close button */
+closeBtn.addEventListener("click", closeModal);
+  if (event.target === closeBtn) {
     closeModal();
   }
-});
 
 /* Close when pressing Escape */
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Escape") {
-    closeModal();
-  }
-});
+// document.addEventListener("keydown", function (event) {
+//   if (event.key === "Escape") {
+//     closeModal();
+//   }
+// });

@@ -28,6 +28,6 @@
 
 let num  = 1223232
 console.log(num.toString()); // "1223232"
-console.log(num.toExponential());
+console.log(num.toExponential()); // "1.2232e+6"
 console.log(num.toFixed(2)); // "1223232.00"
 console.log(num.toPrecision(5)); // "1.2232e+6"

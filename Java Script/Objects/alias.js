@@ -3,3 +3,5 @@ const person = ({firstName: "John",lastName: "Doe",age: 50},{firstName: "Satwik"
 // Destructuring
 let {age : AGe} = person;
 console.log(person);
+
+

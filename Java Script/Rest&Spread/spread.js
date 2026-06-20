@@ -62,19 +62,21 @@
 
 
 //merge two objects
-let obj1 = {
-    name:"satwik",
-    age:21,
-}
+// let obj1 = {
+//     name:"satwik",
+//     age:21,
+// }
 
-let obj2 = {
-    passion:"coding",
-    city:"delhi"
-}
+// let obj2 = {
+//     passion:"coding",
+//     city:"delhi"
+// }
 
-let mergedObj = {
-    ...obj1,
-    ...obj2,
-};
+// let mergedObj = {
+//     ...obj1,
+//     ...obj2,
+// };
 
-console.log(mergedObj); // { name: 'sanya', age: 22 } // The properties of obj2 overwrite the properties of obj1 in the merged object
+// console.log(mergedObj); // { name: 'sanya', age: 22 } // The properties of obj2 overwrite the properties of obj1 in the merged object
+
+
